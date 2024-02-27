@@ -9,6 +9,7 @@
 .square {
     height: 40px;
     width: 40px;
+    position : relative;
 }
 
 
@@ -16,14 +17,33 @@
     height: 30px;
     width: 30px;
     margin: 5px;
+    position: relative;
+    z-index: -9;
 }
 
+path {
+    position: relative;
+    z-index: -10;
+}
 
-/* 15:30 */
+.piece {
+    position: relative;
+    z-index: 9;
+}
+
 .beige {
     background-color: rgb(250, 181, 227);
 }
 
 .brown {
     background-color: rgb(136, 255, 193);
+}
+
+
+.black {
+    fill: rgb(54, 208, 236)
+}
+
+.white {
+    fill: rgb(255, 255, 255)
 }
