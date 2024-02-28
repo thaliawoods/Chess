@@ -15,7 +15,12 @@ Le joueur blanc joue le premier coup, les joueurs alternant les tours simples ju
 
 
 ## Tech Stack
+
 Langages : HTML, CSS et JavaScript
 
 
-## Aperçu du Projet
+## Aperçu du Projet 
+(en cours et ce ne sont pas les couleurs définitives en raison de l'accessibilité)
+
+
+<img width="327" alt="Screenshot 2024-02-28 at 11 55 31" src="https://github.com/thaliawoods/Chess/assets/135039431/ee3e82f3-c466-4dbb-8414-cd70dcc1a5ee">
