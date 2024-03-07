@@ -191,6 +191,7 @@ function revertIds() {
 }
 
 // check for each piece's special move
+// very simplified first with each step to understand the logic
 function checkIfValid(target) {
   // console.log(target)
   const targetId =
@@ -863,7 +864,7 @@ function checkIfValid(target) {
                 .firstChild &&
               !document.querySelector(`[square-id="${startId + width * 6}"]`)
                 .firstChild) ||
-            // move down
+            // rook move down
             startId - width === targetId ||
             (startId - width * 2 === targetId &&
               !document.querySelector(`[square-id="${startId - width}"]`)
@@ -913,7 +914,7 @@ function checkIfValid(target) {
                 .firstChild &&
               !document.querySelector(`[square-id="${startId - width * 6}"]`)
                 .firstChild) ||
-            // move right
+            // rook move right
             startId + 1 === targetId ||
             (startId + 2 === targetId &&
               !document.querySelector(`[square-id="${startId + 1}"]`).firstChild) ||
@@ -942,7 +943,7 @@ function checkIfValid(target) {
               !document.querySelector(`[square-id="${startId + 4}"]`).firstChild &&
               !document.querySelector(`[square-id="${startId + 5}"]`).firstChild &&
               !document.querySelector(`[square-id="${startId + 6}"]`).firstChild) ||
-            // move left
+            // rook move left
             startId - 1 === targetId ||
             (startId - 2 === targetId &&
               !document.querySelector(`[square-id="${startId - 1}"]`).firstChild) ||
