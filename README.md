@@ -1,7 +1,9 @@
 # Chess
 
 
-## Création d'un Jeu d'Échec 
+## V1 de Jeu d'Échec 
+
+## Règles du Jeu
 
 Les échecs sont joués par deux joueurs sur un échiquier de huit cases sur huit. Les 64 cases alternent entre les couleurs claires et foncées traditionnellement, le noir et le blanc. Lorsqu'elle est correctement disposée, une case blanche doit être la case la plus à droite le long du bord le plus proche de chaque joueur.
 
