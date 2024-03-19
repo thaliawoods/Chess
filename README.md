@@ -5,7 +5,7 @@
 
 ## Objectif
 
-Création du jeu en JavaScript, HTML et CSS pour le MVP afin de comprendre la logique nécessaire à la création de l'échiquier, des cases, des mouvements des pièces et des conditions de victoire. Afin de par la suite développer la v2 en programmation orientée objet surement en TypeScript.
+Création du jeu en JavaScript, HTML et CSS pour le MVP afin de comprendre la logique nécessaire à la création de l'échiquier, des cases, des mouvements des pièces et les conditions de victoire. Afin de par la suite développer la v2 en programmation orientée objet surement en TypeScript.
 
 
 ## Règles du Jeu
