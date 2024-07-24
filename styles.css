@@ -1,7 +1,7 @@
 #gameboard {
     width: 320px;
     height: 320px;
-    background-color: rgb(116, 255, 255);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
 }
@@ -32,18 +32,18 @@ path {
 }
 
 .beige {
-    background-color: rgb(250, 181, 227);
+    background-color: rgb(94, 126, 139);
 }
 
 .brown {
-    background-color: rgb(136, 255, 193);
+    background-color: rgb(103, 103, 103);
 }
 
 
 .black {
-    fill: rgb(54, 208, 236)
+    fill: rgb(27, 43, 46)
 }
 
 .white {
-    fill: rgb(255, 255, 255)
+    fill: rgb(232, 232, 232)
 }
