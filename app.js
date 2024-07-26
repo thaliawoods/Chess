@@ -78,7 +78,7 @@ const startPieces = [
   rook,
 ];
 
-// create squares on the Board and add pieces
+// create squares on the board and add pieces
 function createBoard() {
   startPieces.forEach((startPiece, i) => {
     const square = document.createElement("div");

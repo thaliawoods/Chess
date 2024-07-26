@@ -1,17 +1,49 @@
+/* Chess */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    font-size: 6em;
+    color: #333;
+    margin: 20px 0 20px 0px; /* Ajustez la marge gauche pour déplacer le titre */
+    animation: fadeIn 2s ease-in-out;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 #gameboard {
     width: 320px;
     height: 320px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
+    margin: 20px auto; /* Centre le plateau de jeu */
 }
 
 .square {
     height: 40px;
     width: 40px;
-    position : relative;
+    position: relative;
 }
-
 
 .square svg {
     height: 30px;
@@ -32,18 +64,17 @@ path {
 }
 
 .beige {
-    background-color: rgb(94, 126, 139);
+    background-color: hwb(197 37% 45%);
 }
 
 .brown {
     background-color: rgb(103, 103, 103);
 }
 
-
 .black {
-    fill: rgb(27, 43, 46)
+    fill: rgb(27, 43, 46);
 }
 
 .white {
-    fill: rgb(232, 232, 232)
+    fill: rgb(232, 232, 232);
 }
