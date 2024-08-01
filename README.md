@@ -30,4 +30,5 @@ Langages : HTML, CSS et JavaScript
 (en cours et ce ne sont pas les couleurs définitives en raison de l'accessibilité)
 
 
-<img width="327" alt="Screenshot 2024-02-28 at 11 55 31" src="https://github.com/thaliawoods/Chess/assets/135039431/ee3e82f3-c466-4dbb-8414-cd70dcc1a5ee">
+<img width="549" alt="Screenshot 2024-07-26 at 16 11 14" src="https://github.com/user-attachments/assets/2f56cea9-e0f4-4082-b9fd-449cd670038c">
+
